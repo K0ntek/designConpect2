@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <div className=' w-full h-[60px] bg-white fixed top-0 z-[99]'>
-        <div className=' max-w-[1500px] px-6 mx-auto relative top-[50%] translate-y-[-50%] flex'>
+        <div className=' max-w-[1500px] px-6 mx-auto relative top-[50%] translate-y-[-50%] flex z-[99] bg-white'>
 
                 <div className=' justify-start'>
                     <FaStarOfLife className=' text-4xl'/>

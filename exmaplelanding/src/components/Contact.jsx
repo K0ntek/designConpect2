@@ -72,14 +72,15 @@ const Contact = ({option, price}) => {
                                                 </div>
 
                                                         <div className=" bg-black/20 w-full h-full z-40 transition-all absolute top-0 left-0">
-    {/* 
+                                                        {/* 
                                                             <div className=" absolute bottom-2 left-6">
                                                                     <h2 className="text-xl font-montserrat font-[400] tracking-wide text-[rgb(255,255,255)]">{roomElement.room}</h2>
                                                             </div>
 
                                                             <div className=" absolute top-2 left-6">
                                                                     <h2 className="text-xl font-montserrat font-[400] tracking-wide text-[rgb(255,255,255)]">{roomElement.size}</h2>
-                                                            </div> */}
+                                                            </div> 
+                                                        */}
 
                                                             <PiWaveformThin className=" absolute top-2 right-2 text-white text-5xl"/>
                                                         </div>
@@ -114,17 +115,9 @@ const Contact = ({option, price}) => {
                         <div>
                                 <div className="flex space-x-2">
                                     {/* <TiPin className=' mt-2 text-xl rounded-full text-[rgb(126,206,255)]'/> */}
-                                    <p className='text-xl mt-1'>Find that house </p>
+                                    <p className='text-xl mt-1'>Visit us </p>
                                 </div>
                                 <p className=' ml-3'> example street 0/0 - city</p>
-                        </div>
-
-                        <div>
-                                <div className="flex space-x-2">
-                                    {/* <FaClock className=' mt-2 text-xl rounded-full text-[rgb(126,206,255)]'/> */}
-                                    <p className='text-xl mt-1'>Visit us</p>
-                                </div>
-                                <p className=' ml-3'> everyday!</p>
                         </div>
 
                         <div className="flex gap-3 pt-3">

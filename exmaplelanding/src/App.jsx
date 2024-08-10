@@ -8,6 +8,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import SectionOne from './components/SectionOne'
+import SectionTwo from './components/SectionTwo'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
      </div>
      <About/>
      <SectionOne/>
+     <SectionTwo/>
      <Contact/>
      <Footer/>
    </div>

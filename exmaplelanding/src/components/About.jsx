@@ -78,8 +78,7 @@ const About = () => {
                       infinite={true}
                       autoPlaySpeed={5000}
                       autoPlay={true}
-                      arrows={true}
-                      renderDotsOutside={true}
+                      arrows={false}
 
                       className=" relative gd-carousel">
                         {rooms.map((roomElement, i) => {
