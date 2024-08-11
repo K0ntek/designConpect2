@@ -4,19 +4,19 @@ import { FaStarOfLife } from "react-icons/fa6";
 export const navElements = [
     {
         link: '',
-        name: 'about'
+        name: 'Home'
     },
     {
         link: '',
-        name: 'contact'
+        name: 'Interior'
     },
     {
         link: '',
-        name: 'contact'
+        name: 'About'
     },
     {
         link: '',
-        name: 'contact'
+        name: 'Contact'
     },
 ]
 
@@ -34,11 +34,11 @@ const Navbar = () => {
                     <ul className=' flex gap-3 mt-1'>
                         {navElements.map((element, i)=>{
                             return(
-                                <li className=' font-mont font-[700] hover:text-[rgb(126,197,241)] cursor-pointer transition-all duration-150'>{element.name}</li>
+                                <li className=' font-mont font-[700] hover:text-[rgb(238,238,238)] cursor-pointer transition-all duration-150'>{element.name}</li>
                             )
                         })}
                     </ul>
-                    <button className=' bg-zinc-950 rounded-full text-white font-fig font-[600] py-1 px-3'>contact</button>
+                    {/* <button className=' bg-zinc-950 rounded-full text-white font-fig font-[600] py-1 px-3'>Contact</button> */}
                </div>
         </div>
     </div>

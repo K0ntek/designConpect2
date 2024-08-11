@@ -9,6 +9,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import SectionOne from './components/SectionOne'
 import SectionTwo from './components/SectionTwo'
+import RoomsCarousel from './components/RoomsCarousel'
 
 function App() {
 

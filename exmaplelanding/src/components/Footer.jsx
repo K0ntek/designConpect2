@@ -14,7 +14,7 @@ const Footer = () => {
      <div className=' py-5 pb-7 md:flex justify-between space-y-4 md:space-y-0 max-w-[1400px] px-10 mx-auto'>
 
             <div className=' text-black'>
-                <p className=' relative top-1 font-[600] font-montserrat text-black text-[14px] text-center'> © 2024 UI <span className=' font-[700] text-[rgb(126,206,255)]'><a href="https://jakubkontekcv.onrender.com">JAKUB KONTEK</a></span> - All rights reserved</p>
+                <p className=' relative top-1 font-[600] font-montserrat text-black text-[14px] text-center'> © 2024 UI <span className=' font-[700] text-[rgb(126,206,255)]'><a href="https://jakubkontek.onrender.com">JAKUB KONTEK</a></span> - All rights reserved</p>
             </div>
 
             <div className=''>
