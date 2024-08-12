@@ -42,7 +42,7 @@ const RoomsCarousel = () => {
                                     backgroundPositionY:'70%',
                                     backgroundPositionX:'50%'}} 
                                     >
-                                    <h1 className=' absolute bottom-6 right-6 font-fig font-[600] text-white z-[99] '>swipe left/right</h1>
+                                    <h1 className=' absolute top-0 right-10 font-fig text-[10px] font-[600] text-white z-[99] '>swipe left/right</h1>
 
                                     <div className="p-[16px] relative z-[99]">
                                     <div className=' bg-zinc-950/70 w-full sm:w-2/3 lg:w-2/5 h-full rounded-3xl '>

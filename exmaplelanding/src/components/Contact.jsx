@@ -43,11 +43,11 @@ const Contact = ({option, price}) => {
       };
 
   return (
-   <div className="w-full bg-white">
-    <div className=' max-w-[1500px] px-6 mx-auto'>
-     <div className=' grid lg:grid-cols-[35%_65%] py-10 gap-5 ' id='contact'>
+   <div className="w-full bg-white" id='contact'>
+    <div className=' max-w-[1500px] px-6 mx-auto  grid'>
+        <div className=' grid lg:grid-cols-[35%_65%] py-10 gap-5 ' id='contact'>
 
-     <div className=' max-w-[700px] bg-[#f7f7f7] lg:w-full mx-auto  text-black rounded-3xl'>
+        <div className=' max-w-[700px] bg-[#f7f7f7] lg:w-full mx-auto  text-black rounded-3xl'>
             <div className=' mx-auto max-w-[700px]'>
             <div className=' space-y-3 font-montserrat font-[500] mx-auto'>
                 <div className="grid">
@@ -176,8 +176,7 @@ const Contact = ({option, price}) => {
                 </div>
             </div>
             </div>
-
-    </div>
+        </div>
    </div>
    </div>
   )

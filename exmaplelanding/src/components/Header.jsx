@@ -6,6 +6,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { PiWaveformThin } from "react-icons/pi";
 import gsap from 'gsap';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   
@@ -38,7 +39,7 @@ const Header = () => {
       },[])
 
     return (
-    <div className=' pt-[100px] relative '>
+    <div className=' pt-[100px] relative' id='header'>
         <div className="grid lg:grid-cols-[3fr_2fr] mb-5 gap-4">
 
                 <div className=' space-y-4 relative'>
@@ -109,7 +110,10 @@ const Header = () => {
 
                                                         <PiWaveformThin className=" absolute top-2 right-2 text-white text-4xl"/>
                                                         <div className="absolute right-5 bottom-3 z-[99]">
-                                                                <button className=' font-fig font-[600] z-[99] bg-zinc-950 text-[12px] rounded-full py-1 px-2 text-white'> see more</button>
+
+                                                            <Link to='interior' spy={true} smooth={true}>
+                                                            <button className=' font-fig font-[600] z-[99] bg-zinc-950 text-[12px] rounded-full py-1 px-2 text-white'> see more</button>
+                                                            </Link>
                                                         </div>
 
                                                     </div>
@@ -137,7 +141,9 @@ const Header = () => {
                                 <div>
                                     <div className=''>
                                         <p className=' font-fig font-[700] text-[22px] xl:text-2xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        <button className=' font-fig font-[600] z-[99] bg-black text-white text-xl rounded-full py-1 px-2 mt-4'> see more</button>
+                                            <Link to='AboutSectionOne' spy={true} smooth={true}>
+                                                    <button className=' font-fig font-[600] z-[99] bg-zinc-950 text-xl mt-5 rounded-full py-1 px-2 text-white'> see more</button>
+                                            </Link>
                                     </div>
                                 </div>   
                     </div>
@@ -146,7 +152,9 @@ const Header = () => {
                         <FaStarOfLife className='my-2 text-xl'/>
                         {/* <h1 className=' font-mont font-[700] text-3xl upp'>Lorem, ipsum dolor.</h1> */}
                         <p className=' font-fig font-[700] text-[22px] xl:text-2xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit?</p>
-                        <button className=' font-fig font-[600] z-[99] bg-white text-xl rounded-full py-1 px-2 text-black mt-4'> see more</button>
+                            <Link to='AboutSectionTwo' spy={true} smooth={true}>
+                                <button className=' font-fig font-[600] z-[99] bg-white text-xl mt-5 rounded-full py-1 px-2 text-zinc-950'> see more</button>
+                            </Link>
                     </div>
             </div>
 

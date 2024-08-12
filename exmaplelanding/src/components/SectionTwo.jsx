@@ -4,7 +4,7 @@ import { FaStarOfLife } from "react-icons/fa6";
 
 const SectionTwo = () => {
   return (
-    <div className=' w-full bg-[#f3f3f3]'>
+    <div className=' w-full bg-[#f3f3f3]'  id='AboutSectionTwo'>
         <div className=' relative p-6 max-w-[1500px] mx-auto'>
                 {/* <h1 className=' text-center font-mont font-[600] text-4xl uppercase'>Lorem ipsum dolor sit.</h1> */}
 

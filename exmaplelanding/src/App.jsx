@@ -20,8 +20,10 @@ function App() {
       <Header/> 
      </div>
      <About/>
-     <SectionOne/>
-     <SectionTwo/>
+     <div id="about">
+      <SectionOne/>
+      <SectionTwo/>
+     </div>
      <Contact/>
      <Footer/>
    </div>

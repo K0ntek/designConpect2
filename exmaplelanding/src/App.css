@@ -1,3 +1,39 @@
 body{
     background: linear-gradient(80deg, rgb(230, 230, 230) 0%, rgb(255, 255, 255) 100%);
 }
+
+.toggledIcon .line{
+    transition: all .5s;
+  }
+  
+   .toggledIcon .line1{
+    transform: rotate(45deg);
+    position: relative;
+     top: 7px;
+  }
+  
+  .toggledIcon .line2{
+    transform: rotate(-45deg);
+  }
+  
+  .toggledIcon .line3{
+    display: none;
+  }
+  
+  .toggledIcon:hover .line1, .toggledIcon:hover .line2{
+    background: red;
+  }
+  
+  .navbarMenu {
+    top: -300px;
+    transition: .5s;
+  }
+
+  .navbarActive{
+    top:45px;
+  }
+
+  .navElement .active {
+    color: rgb(255,149,73);
+  }
+  

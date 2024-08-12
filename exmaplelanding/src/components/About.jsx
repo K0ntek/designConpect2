@@ -115,7 +115,7 @@ const About = () => {
 
 
   return (
-    <div id='about' className=' pt-[70px]'>
+    <div id='interior' className=' pt-[70px]'>
         <div className='w-full min-h-screen bg-[rgb(238,238,238)]'>
             <div className="max-w-[1500px] px-6 py-10 mx-auto">
 

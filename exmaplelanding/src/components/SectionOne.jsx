@@ -3,7 +3,7 @@ import { PiWaveformThin } from "react-icons/pi";
 
 const SectionOne = () => {
   return (
-    <div className=' w-full min-h-screen bg-zinc-950 text-white'>
+    <div className=' w-full min-h-screen bg-zinc-950 text-white' id='AboutSectionOne'>
         <div className="max-w-[1500px] px-6 mx-auto py-[100px] ">
             <div className="w-full md:w-4/5 mx-auto space-y-10">
                     <h1 className=' text-center font-mont font-[600] text-5xl w-3/4 mx-auto'>Lorem ipsum dolor sit amet <span className=' text-[silver]'>consectetur</span>.</h1>
