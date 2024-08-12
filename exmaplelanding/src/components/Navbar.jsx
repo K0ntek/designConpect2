@@ -23,8 +23,8 @@ export const navElements = [
 
 const Navbar = () => {
 
-    const [activeNavbar, setActiveNavbar] = useState("nav__menu");
-    const [icon, setIcon] = useState("nav__toggler");
+    const [activeNavbar, setActiveNavbar] = useState("navbarMenu");
+    const [icon, setIcon] = useState("navbarToggler");
     const navToggle = () => {
         if (activeNavbar === "navbarMenu") {
             setActiveNavbar("navbarMenu navbarActive");
@@ -52,7 +52,7 @@ const Navbar = () => {
                     </Link>
                 </div>
 
-               <div className={`${activeNavbar} fixed sm:top-0 sm:absolute sm:right-6 bg-white gap-3 w-full sm:w-fit z-[-1]`}>
+               <div className={`${activeNavbar} navbarMenu fixed sm:top-0 sm:absolute sm:right-6 bg-white gap-3 w-full sm:w-fit z-[-1]`}>
                     <ul className=' grid sm:flex gap-3  w-fit mx-auto sm:mx-0 p-6 sm:p-0 mt-2'>
                         {navElements.map((element, i)=>{
                             return(
